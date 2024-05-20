@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="/css/SIGN-UP.css">
+</head>
+<body>
+    <header>
+        <h1>Sign Up</h1>
+        <nav>
+            <div id="Rnx">
+            <a href="index.html" target="_blank" class="nav">HOME</a> |
+            <a href="tandc.html" target="_blank" class="nav">Term Policy</a> |
+            <a href="sign-up.html"class="nav">Sign up</a> 
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="first_name" class="fst">First Name :*</label>
+            <input type="text" name="first_name" id="first_name" class="placeholder" placeholder="First Name" required="true">&nbsp; &nbsp;
+            <label for="last_name" class="fst">Last Name :</label>
+            <input type="text" name="last_name" id="last_name" class="placeholder" placeholder="Last Name">
+        <br>
+        <br>
+            <label for="gender" class="fst">Gender :*</label>
+            <input type="radio" name="gender" id="male" value="male" required="true">
+            <label for="male" class="fst">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female" class="fst">Female</label>
+            <input type="radio" name="gender" id="others" value="others">
+            <label for="others" class="fst">Others</label>
+        <br>
+        <br>
+            <label for="phone_number" class="fst">Phone No.:*</label>
+            <select name="cuntry_code" id="phone_number" class="placeholder">
+                <option value="">--Select--</option>
+                <option value="+91">+91</option>
+                <option value="+92">+92</option>
+                <option value="+93">+93</option>
+                <option value="+96">+96</option>
+                <option value="+72">+72</option>
+            </select>
+            <input type="number" name="phone_number" id="phone_number" class="placeholder" placeholder="Phone No." required="true">
+        <br>
+        <br>
+            <label for="email" class="fst">Email :*</label>
+            <input type="email" name="email" id="email" class="placeholder" placeholder="Enter Email" required="true">
+        <br>
+        <br>
+            <label for="cnf_email" class="fst">Confirm Email :*</label>
+            <input type="email" name="cnf_email" id="cnf_email" class="placeholder" placeholder="Confirm Email" required="true">
+        <br>
+        <br>
+            <label for="dob" class="fst">Date Of Birth :*</label>
+            <input type="date" name="dob" id="dob" class="placeholder" required="true">
+        <br>
+        <br>
+            <label for="pwd" class="fst">Create Password :*</label>
+            <input type="password" name="pwd" id="pwd" class="placeholder" placeholder="Create password" required="true">
+        <br>
+        <br>
+            <label for="cnf_pwd" class="fst">Confirm Password :*</label>
+            <input type="password" name="cnf_pwd" id="cnf_pwd" class="placeholder" placeholder="Confirm password" required="true">
+        <br>
+        <br>
+            <label for="file" class="placeholder">Attach here :</label>
+            <input type="file" name="file" id="file" class="placeholder">
+        <br>
+        <br>
+            <input type="checkbox" name="T&C" id="t&c" required="true" class="placeholder">
+            <label for="t&c" id="TC" class="placeholder">Accept&nbsp;<a href="T&C.html" target="_blank">term & condition</a></label>
+        <br>
+        <br>
+            <input type="submit" value="Submit" id="submit" class="placeholder"> 
+        </form>
+    </main>
+    <br>
+    <div id="footer">
+      <br>
+         <footer>
+            <label for="feedback" class="fst">Drop a Suggetion/Feedback :</label>
+            <textarea name="feedback" id="feedback" rows="4" cols="40" class="placeholder">Feedback here!</textarea>
+         </footer>
+    </div>
+    </body>
+</html>

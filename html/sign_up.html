@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign_up</title>
+</head>
+<body>
+    <header align="center">
+        <p>
+            <h1><u>Sign Up</u></h1>
+        </p>
+        <hr>    
+    </header>
+    <main>
+    <form action="" align="center"> 
+        <label for="first_name">First Name :*</label>
+            <input type="text" name="first_name" id="first_name"  placeholder="First Name" required="true">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="last_name">Last Name :</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Last Name">     
+        <br>
+        <br>
+        <label for="gender">Gender :*</label>
+             <input type="radio" name="gender" id="male" value="male"><label for="male"> Male </label><input type="radio" name="gender" id="female" value="female"><label for="female"> Female </label> <input type="radio" name="gender" id="others" value="others" required="true"><label for="others"> Others</label>
+        <br>
+        <br>
+        <label for="cuntry_code">Phone No :*</label>
+            <select name="cuntry_code" id="cuntry_code">
+              <option value="#">--Select--</option>
+              <option value="+91">+91</option>
+              <option value="+92">+92</option>
+              <option value="+93">+93</option>
+              <option value="+94">+94</option>
+              <option value="+669">+669</option>    
+            </select>
+             &nbsp;
+             <input type="number" name="phone_number" id="phone_number" placeholder="Phone No." required="true">
+        <br>
+        <br>
+        <label for="email">Email :*</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required="true">
+        <br>
+        <br>
+        <label for="cnf_mail">Confirm Emali :*</label>
+            <input type="email" name="cnf_mail" id="cnf_mail" placeholder="Confirm Email" required="true">
+        <br>
+        <br>
+        <label for="DOB">Date Of Birth :*</label>
+            <input type="date" name="DOB" id="DOB" required="true">
+        <br>
+        <br>
+        <label for="password">Create Password :*</label>
+            <input type="password" name="password" id="password" placeholder="Create Password"   required="true">
+        <br>
+        <br>
+        <label for="cnf_pswd">Confirm Password :*</label>
+            <input type="password" name="cnf_pswd" id="cnf_pswd" placeholder="Confirm Password" required="true">
+        <br>
+        <br>
+        <label for="drop">Attach here :*</label>
+            <input type="file" name="drop" id="drop" >
+        <br>
+        <br>
+            <input type="checkbox" name="checkbox" id="checkbox" required="true">
+        <label for="checkbox">Accept Term & Condition</label>
+        <br>
+        <br>
+            <input type="submit" value="submit">
+        <hr>
+    </form>
+    </main>
+    <footer align="center">
+        <label for="Feedback"> Feedback here : </label>
+            <textarea name="Feedback" id="feedback" rows="4" cols="40">give feedback here!</textarea>
+        <br>
+        <br>
+        <iframe src="https://pdfdrive.to/" frameborder="10" width="700" height="420"></iframe>
+        </footer>
+</body>
+</html>
